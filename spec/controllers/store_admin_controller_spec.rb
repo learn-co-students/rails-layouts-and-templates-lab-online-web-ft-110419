@@ -17,7 +17,7 @@ RSpec.describe StoreAdminController, type: :controller do
   end
 
   describe "GET orders" do
-    it "renders the orders template with order_administration layout" do
+    it "renders the orders template with ç layout" do
       visit 'admin/orders'
 
       expect(response).to render_template("orders")
